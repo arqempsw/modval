@@ -10,6 +10,13 @@
 
 ## Patrones
 
+Los patrones utilizados dentro de la arquitectura son los siguientes:
+
+1. Intermediate Routing
+2. Service Discovery
+ 2.1. Service Registry
+ 2.2. Client-Side Service Discovery
+
 ## Ventajas y desventajas (Trade-offs)
 
 A continuación, se describen las ventajas y desventajas de cada uno de los patrones utilizados en nuestra arquitectura:
@@ -41,6 +48,16 @@ A continuación, se describen las ventajas y desventajas de cada uno de los patr
     - Se requiere la implementación de una lógica para descubrimiento de servicios por cada lenguaje de programción/framweork utilizado 
 
 **Service registry**
+
+ *Ventajas*
+ 
+    - El cliente del servicio y/o enrutadores pueden descubrir la ubicación de las instancias del servicio
+    
+ *Desventajas*
+ 
+    - A menos de que el servicio de registro ya se encuentra incorporado en la infraesctructura actual, éste se convierte en un componente adicional que se debe configurar
+    - El servicio de registro es un componente crítico dentro de la arquitectura, debe estar desplegado en un esquema de alta disponibilidad
+    Client of the service and/or routers can discover the location of service instances.
    
    
 ## Estilos de arquitectura
