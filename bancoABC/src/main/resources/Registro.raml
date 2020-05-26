@@ -1,0 +1,18 @@
+#%RAML 1.0
+title: Servicio Registro Convenios
+mediaType: application/json
+baseUri: http://www.bancoabc.co/servicios/registro/{version}
+version: v1
+
+
+/convenio/{idConvenio}:
+   put:
+       description: Registra un nuevo convenio a pagar
+       responses:
+           200:
+               body:
+                  application/json:
+                           properties:
+                             idConvenio: number
+           404:
+               description: No fue posible registrar nuevo convenio

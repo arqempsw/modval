@@ -1,0 +1,27 @@
+#%RAML 1.0
+title: Servicio Pagos
+mediaType: application/json
+baseUri: http://www.bancoabc.co/servicios/pagos/{version}
+version: v1
+
+
+/pagos/{idFactura}:
+   post:
+       description: Permite realizar el pago de la factura direccionando al servicio correspondiente
+       body:
+          application/json:
+            properties:
+              valorFactura: number
+       responses:
+           200:
+               body:
+                   application/json:
+                     properties:
+                        idFactura: number
+                        mensajeOK: string
+           404:
+               body:
+                   application/json:
+                     properties:
+                       idFactura: number
+                       mensajeBad: string

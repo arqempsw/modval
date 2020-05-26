@@ -1,0 +1,27 @@
+#%RAML 1.0
+title: Servicio Compensacion
+mediaType: application/json
+baseUri: http://www.bancoabc.co/servicios/compensacion/{version}
+version: v1
+
+
+/compensacion/{idFactura}:
+   delete:
+       description: Permite compensar el pago de la factura validando con la entidad correspondiente
+       body:
+         application/json:
+           properties:
+             valorFactura: number
+       responses:
+           200:
+               body:
+                   application/json:
+                     properties:
+                       idFactura: number
+                       mensajeOK: string
+           404:
+               body:
+                   application/json:
+                          properties:
+                            idFactura: number
+                            mensajeBad: string

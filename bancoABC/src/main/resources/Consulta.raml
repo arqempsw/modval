@@ -1,0 +1,19 @@
+#%RAML 1.0
+title: Servicio Consulta
+mediaType: application/json
+baseUri: http://www.bancoabc.co/servicios/consulta/{version}
+version: v1
+
+
+/consulta/{idFactura}:
+   get:
+       description: Envía petición a la empresa correspondiente y retorna información de la factura
+       responses:
+           200:
+               body:
+                  application/json:
+                           properties:
+                             idFactura: number
+                             valorFactura: number
+           404:
+               description: La factura no existe
