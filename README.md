@@ -1,8 +1,8 @@
 # Taller de modelación y validación de la arquitectura
 
-![Intermediaterouting](Intermediaterouting.png "Patron")
+![Intermediaterouting](Intermediaterouting.png "Patron Intermediaterouting")
 
-![Raml](Raml.png)
+![Raml](raml.png)
 
 ![Registro de servicios](RegistroServicios.png)
 
