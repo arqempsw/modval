@@ -39,6 +39,9 @@ A continuación, se describen las ventajas y desventajas de cada uno de los patr
  
     - Acomplamiento con el servicio de registro
     - Se requiere la implementación de una lógica para descubrimiento de servicios por cada lenguaje de programción/framweork utilizado 
+
+**Service registry**
+   
    
 ## Estilos de arquitectura
 
