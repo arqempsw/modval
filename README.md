@@ -2,7 +2,7 @@
 
 ![Intermediaterouting](Intermediaterouting.png "Patron")
 
-![JsonSchema](Raml.png)
+![Raml](Raml.png)
 
 ![Registro de servicios](RegistroServicios.png)
 
