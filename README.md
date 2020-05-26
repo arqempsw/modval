@@ -1,12 +1,10 @@
 # Taller de modelación y validación de la arquitectura
 
-
-
 ## Justificación de arquitectura
 
 La necesidad que tiene el banco ABC de poder interconectar varios proveedores 
 
-
+![Diagrama de alto nivel](ArquitecturaAltoNivel.png)
 
 ## Patrones
 
