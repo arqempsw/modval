@@ -63,7 +63,7 @@ A continuación, se describen las ventajas y desventajas de cada uno de los patr
    
 ## Estilos de arquitectura
 
-Servicios basados en frits-contract y utilizando el estandar RAML para la definición del contrato
+Servicios basados en first contract y utilizando el estandar RAML para la definición del contrato, se desarrollaron los diferentes artefactos.
 
 ![Raml](raml.png)
 
