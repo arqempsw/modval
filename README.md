@@ -1,8 +1,8 @@
 # Taller de modelación y validación de la arquitectura
 
-![Patron](Intermediate routing.png "Patron")
-![JsonSchema](Json Schema.png)
-![Registro de servicios](Registro Servicios.png)
+![Patron](Intermediaterouting.png "Patron")
+![JsonSchema](JsonSchema.png)
+![Registro de servicios](RegistroServicios.png)
 
 ## Justificación de arquitectura
 
