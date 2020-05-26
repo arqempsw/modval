@@ -4,17 +4,23 @@
 
 ## Justificación de arquitectura
 
+La necesidad que tiene el banco ABC de poder interconectar varios proveedores 
+
+
+
 ## Patrones
 
 Los patrones utilizados dentro de la arquitectura son los siguientes:
 
 1. Intermediate Routing
+
 ![Intermediaterouting](Intermediaterouting.png "Patron Intermediaterouting")
 
 2. Service Discovery
    - Service Registry
    - Client-Side Service Discovery
- ![Registro de servicios](RegistroServicios.png)
+
+![Registro de servicios](RegistroServicios.png)
 
 ## Ventajas y desventajas (Trade-offs)
 
@@ -59,5 +65,7 @@ A continuación, se describen las ventajas y desventajas de cada uno de los patr
    
 ## Estilos de arquitectura
 
+Servicios basados en frits-contract y utilizando el estandar RAML para la definición del contrato
 
+![Raml](raml.png)
 
