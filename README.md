@@ -14,8 +14,8 @@ Los patrones utilizados dentro de la arquitectura son los siguientes:
 
 1. Intermediate Routing
 2. Service Discovery
-   2.1. Service Registry
-   2.2. Client-Side Service Discovery
+   - Service Registry
+   - Client-Side Service Discovery
 
 ## Ventajas y desventajas (Trade-offs)
 
