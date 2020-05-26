@@ -1,10 +1,6 @@
 # Taller de modelación y validación de la arquitectura
 
-![Intermediaterouting](Intermediaterouting.png "Patron Intermediaterouting")
 
-![Raml](raml.png)
-
-![Registro de servicios](RegistroServicios.png)
 
 ## Justificación de arquitectura
 
@@ -13,9 +9,12 @@
 Los patrones utilizados dentro de la arquitectura son los siguientes:
 
 1. Intermediate Routing
+![Intermediaterouting](Intermediaterouting.png "Patron Intermediaterouting")
+
 2. Service Discovery
    - Service Registry
    - Client-Side Service Discovery
+ ![Registro de servicios](RegistroServicios.png)
 
 ## Ventajas y desventajas (Trade-offs)
 
