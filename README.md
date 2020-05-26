@@ -2,7 +2,7 @@
 
 ## Justificación de arquitectura
 
-La necesidad que tiene el banco ABC de poder interconectar varios proveedores que tienen diferentes tecnologias para exponer sus servicios WEB, 
+La necesidad que tiene el banco ABC de poder interconectar varios proveedores que tienen diferentes tecnologias para exponer sus servicios WEB, generó la necesidad de la utilización de diferentes patrones y tecnologias para poder solucionar los problemas que esto conlleva como se describe acontinuación.
 
 ![Diagrama de alto nivel](ArquitecturaAltoNivel.png)
 
