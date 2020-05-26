@@ -28,6 +28,17 @@ A continuación, se describen las ventajas y desventajas de cada uno de los patr
   
     - La modificación dinámica de las reglas de enrutamiento en tiempo de ejecución puede presentar el riesgo de que la lógica no probada previamente pase a producción
     - La lógica de enrutamiento agrega sobrecarga de rendimiento en comparación con la comunicación directa entre servicios
+
+**Client-Side service discovery**
+
+ *Ventajas*
+ 
+   - Menor cantidad de saltos de red y de componentes móviles en comparación al patrón Server-Side
+   
+ *Desventajas*
+ 
+  - Acomplamiento con el servicio de registro
+  - Se requiere la implementación de una lógica para descubrimiento de servicios por cada lenguaje de programción/framweork utilizado 
    
 ## Estilos de arquitectura
 
