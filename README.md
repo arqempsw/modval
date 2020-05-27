@@ -2,7 +2,7 @@
 
 ## Justificación de arquitectura
 
-La necesidad que tiene el banco ABC de poder interconectar varios proveedores que tienen diferentes tecnologias para exponer sus servicios WEB, generó la necesidad de la utilización de diferentes patrones y tecnologias como etcd, raml entre otras para poder solucionar los problemas que esto conlleva como se describe a continuación.
+La necesidad que tiene el banco ABC de poder interconectar varios proveedores que tienen diferentes tecnologias para exponer sus servicios WEB, generó la necesidad de la utilización de diferentes patrones y tecnologias como etcd, raml, para la generación de las clase se utilizó un proyecto que se encuentra publicado en (https://github.com/mulesoft-labs/raml-java-client-generator) el cual se encarga de crear las clases utilizando los archivos de raml.
 
 ![Diagrama de alto nivel](ArquitecturaAltoNivel.png)
 
